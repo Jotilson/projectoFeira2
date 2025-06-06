@@ -22,6 +22,11 @@ grandes telas: 1441px */
     --cor4: #1D3461;
  }
  body{
+  background-image: url('imagens/ippls.png');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 20%;
+  background-attachment: fixed;
   width: 100%;
   height: 100vh;
  }

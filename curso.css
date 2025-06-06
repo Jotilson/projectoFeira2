@@ -105,5 +105,22 @@ main div span p{
     text-transform: capitalize;
 }
 
+footer a{
+  color: rgb(155, 224, 125);
+ 
+}
 
+
+
+footer{
+ background-image: linear-gradient(to bottom, var(--cor2), var(--cor3));
+padding: 20px;
+color: white;
+}
+
+
+
+#qr{
+  text-align: center;
+}
 

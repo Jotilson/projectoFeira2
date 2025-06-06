@@ -39,7 +39,7 @@ grandes telas: 1441px */
        
       }
       main{
-        background-color: var(--cor2);
+       background-image: linear-gradient(to bottom, var(--cor2), white);
        padding-top: 10px;
         margin: auto;
       }
@@ -61,6 +61,7 @@ grandes telas: 1441px */
 
     .principal p{
         font-size: 20px;
+      
       }
       main{
         background-color: var(--cor2);
@@ -75,7 +76,8 @@ grandes telas: 1441px */
        border-top-right-radius: 5px;
         border: 2px solid darkblue;
         box-shadow: 1px 1px 3px black;
-       
+      border-bottom-right-radius: 5px;
+      border-bottom-left-radius: 5px;
         
       }
       .info{
