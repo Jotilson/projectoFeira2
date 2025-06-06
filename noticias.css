@@ -1,0 +1,147 @@
+@charset "UTF-8";
+ *{
+    margin: 0;
+    padding: 0;
+   
+ }
+  
+ :root{
+    --cor1: blue;
+    --cor2: #3c94d4fa;
+    --cor3: darkblue;
+    --cor4: #1D3461;
+ }
+
+ header{
+  background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
+  min-height: 140px;
+
+ }
+ header>h1{
+   padding-left: 15%;
+   padding-right: 15%;
+   text-align: center;
+   font-size: 3vw;
+padding-top: 15px;
+padding-bottom: 20px;
+color: white;
+ }
+ header>p{
+   color: white;
+   text-align: center;
+   padding-left: 5%;
+   padding-right: 5%;
+    font-size: 1.8vw;
+ }
+ nav{
+   padding-top: 30px;
+padding-bottom: 10px;
+ }
+ nav a{
+   color: white;
+   text-decoration: none;
+   text-transform: uppercase;
+   padding-left: 4px;
+   font-size: 10px;
+   padding-bottom: 11px;
+   padding-top: 10px;
+ }
+ 
+ abbr{
+   text-decoration: none;
+   
+ }
+main h1{
+    padding: 20PX;
+    text-align: center;
+    color: darkblue;
+    font-size: 3.7vw;
+}
+ 
+ .portrait{
+    display: flex;
+    text-align: justify;
+    width: 70%;
+    margin: auto;
+    margin-left:300px;
+    gap: 8%;
+ }
+ .cont{
+    display: flex;
+    text-align: justify;
+    width: 70%;
+    margin: auto;
+    
+   margin-top: 2%;
+  gap: 8%;
+ }
+ h2{
+  font-size: 3.5vw;
+ }
+ 
+
+ .card1{
+margin: auto;
+    text-align: justify;
+    width: 60%;
+    padding: 15px;
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
+    border-radius: 15px;
+    
+   
+ }
+
+ .card1 >p{
+     font-style: italic;
+     font-size: 13px;
+ }
+
+ .card1 > h3{
+     padding: 5px;
+     text-align: justify;
+     font-size: 2.8vw;
+ }
+
+ .card1 >  h2{
+     padding: 5px;
+
+ }
+
+ .card1 > p{
+     color: white;
+ }
+
+ .card1 > h4{
+     padding: 5px;
+     font-size: 2.7vw;
+     text-transform: uppercase;
+ }
+ .card1 ul{
+     color: white;
+     list-style-position: inside;
+
+ }
+  li{
+  font-size: 12px;
+ }
+
+ .card1 ul{
+     padding: 20px;
+     margin-left: 10px ;
+ }
+ 
+
+ hr{
+     color: black;
+ }
+
+ .cards{
+     display: flex;
+     margin-left: 40px;
+     margin-bottom: 40px;
+     gap: 28px;
+     flex-wrap: wrap;
+ }
+
+
+ 

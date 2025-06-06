@@ -1,0 +1,19 @@
+@charset "UTFF-8";
+
+/*Todas as medias */
+
+/* Typical device breakpoints
+pqs  telas: 320px-480px
+celular: ate 481px-768px 
+tablet: 769px-1024px
+desktop: 1025px-1440px
+grandes telas: 1441px */
+
+@media screen and (min-width: 1025px) {
+    a:hover{
+        color: blue;
+    }
+    a:active{
+        color: red;
+    }
+}

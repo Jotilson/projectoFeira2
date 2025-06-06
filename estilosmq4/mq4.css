@@ -1,0 +1,50 @@
+@charset "UTFF-8";
+
+/*Todas as medias */
+
+/* Typical device breakpoints
+pqs  telas: 320px-480px
+celular: ate 481px-768px 
+tablet: 769px-1024px
+desktop: 1025px-1440px
+grandes telas: 1441px */
+:root{
+    --cor1: #3c94d4fa;
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    main{
+        background-color: var(--cor1);
+        padding-top: 10px;
+    }
+    article{
+        background-color: white;
+        width: 98%;
+        margin: auto;
+       border-top-right-radius:5px;
+       border-top-left-radius: 5px;
+       border: 2px solid darkblue;
+       box-shadow: 1px 1px 3px black;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    nav a:hover{
+        background-color: var(--cor2);;
+        transition-duration: 1s;
+        border-radius: 3px;
+       
+      }
+   
+    .card1{
+        margin: auto;
+            text-align: justify;
+            width: 27%;
+            padding: 15px;
+            background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
+            border-radius: 15px;
+            
+           
+         }
+        
+    
+}

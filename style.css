@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+/*Todas as medias */
+
+/* Typical device breakpoints
+pqs  telas: 320px-480px
+celular: ate 481px-768px 
+tablet: 769px-1024px
+desktop: 1025px-1440px
+grandes telas: 1441px */
+
+ *{
+    margin: 0px;
+    padding: 0px;
+   
+ }
+  
+ :root{
+    --cor1: blue;
+    --cor2: #3c94d4fa;
+    --cor3: darkblue;
+    --cor4: #1D3461;
+ }
+ body{
+  width: 100%;
+  height: 100vh;
+ }
+ 
+  header{
+   background-image: linear-gradient(to bottom, var(--cor2), var(--cor4));
+   min-height: 140px;
+
+  }
+  header>h1{
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: center;
+    font-size: 3vw;
+ padding-top: 15px;
+ padding-bottom: 20px;
+ color: white;
+  }
+  header>p{
+    color: white;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+     font-size: 1.8vw;
+  }
+  nav{
+    padding-top: 30px;
+padding-bottom: 10px;
+  }
+  nav a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 4px;
+    font-size: 10px;
+    padding-bottom: 11px;
+    padding-top: 10px;
+  }
+  
+  abbr{
+    text-decoration: none;
+    
+  }
+
+  .principal p{
+    width: 70%;
+    text-align: justify;
+    margin: auto;
+  }
+ 
+ 
+ #first{
+    border-radius: 2%;
+ }
+ 
+ 
+  main{
+  padding: 25px;
+  }
+
+ 
+  main div h1{
+    color: black;
+    padding-bottom: 15px;
+  }
+main div span p{
+ text-indent: 20px;
+ line-height: 4.8vh;
+}
+  
+
+
+ footer a{
+    color: rgb(155, 224, 125);
+   
+}
+
+
+
+footer{
+   background-image: linear-gradient(to bottom, var(--cor2), var(--cor3));
+  padding: 20px;
+  color: white;
+}
+
+
+
+#qr{
+    text-align: center;
+}
